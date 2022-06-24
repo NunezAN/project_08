@@ -27,6 +27,7 @@ li{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 .text--purple{
     color: #6030b1;
@@ -78,6 +79,11 @@ nav{
     flex-direction: column;
 
 }
+.aboutme__info{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .aboutme__info--container{
     display: flex;
     flex-direction: column;
@@ -108,4 +114,18 @@ nav{
 .aboutme__info-para{
     font-size: 20px;
     margin-bottom: 28px;
+}
+.aboutme__link{
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    padding: 0 16px;
+}
+.aboutme__image--container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.aboutme__image{
+    width: 100%;
 }
