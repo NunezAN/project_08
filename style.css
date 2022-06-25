@@ -195,6 +195,7 @@ nav{
 }
 .language__List{
     display: flex;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -317,4 +318,26 @@ footer{
 .footer__logo--anchor:hover .footer__logo--popup{
     transform: translateX(60px);
     opacity: 1;
+}
+/* MOBILE DEVICES, TABLETS, LARGE SMARTPHONES */
+@media(max-width:768px){
+    nav{
+        height: 68px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .aboutme__info-para{
+        font-size: 18px;
+    }
+    .language{
+        width: calc(100%/3);
+    }
+    .project__description--para{
+        font-size: 14px;
+    }
+    .project__description{
+        left: 30px;
+        padding-right: 30px;
+    }
 }
