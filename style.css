@@ -258,3 +258,14 @@ nav{
     color: #fff;
 }
 /* FOOTER */
+footer{
+    background-color: black;
+}
+.footer__img{
+    width: 70px;
+    height: 70px;
+}
+.footer__row{
+    padding: 8% 0;
+    color: white;
+}
